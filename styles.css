@@ -1,0 +1,51 @@
+  .basic {
+    color: black;
+    background-color: pink;
+  }
+  .basic-extra {
+    color: black;
+    background-color: pink;
+    font-size: 32px;
+  }
+  #id1 {
+    color: blue;
+    font-size: 32px;
+  }
+
+  #id2 {
+    font-weight: bold;
+    background-color: aquamarine;
+  }
+  .button-primary, .button-secondary {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  .button-primary{
+    color: white;
+    background-color: black;
+  }
+  .button-secondary{
+    color: black;
+    background-color: yellow;
+  }
+  .button {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    color: blue;
+    background-color: white;
+  }
+  .button.two{
+    color: green;
+    background-color: yellow;
+  }
+  .container .text {
+    color: black;
+    background-color: red;
+  }
+  .button-primary:hover, .button-secondary:hover, .button:hover {opacity: 1};
